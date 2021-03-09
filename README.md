@@ -1,1 +1,2 @@
-# covid-19-vaccines
+# Covid-19 Vaccination Data Exploration and Visualization
+
