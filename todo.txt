@@ -1,4 +1,0 @@
-To Do:
-Add date slider functionality to manipulate displayed data
-Research periodic API calls
-Create & deploy app.py
