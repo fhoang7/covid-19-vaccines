@@ -44,7 +44,7 @@ fully_vaccinations.head()
 # In[6]:
 
 
-shape = '../data/world_shape/ne_110m_admin_0_countries.shp'
+shape = './data/world_shape/ne_110m_admin_0_countries.shp'
 gdf = gpd.read_file(shape)[['ADMIN', 'ADM0_A3', 'geometry']]
 gdf.columns = ['geo_country', 'country_code', 'geometry']
 gdf = gdf[gdf['geo_country']!= 'Antarctica']
