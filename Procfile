@@ -1,1 +1,1 @@
-web: bokeh serve — port=$PORT — allow-websocket-origin=covid-world-map.herokuapp.com — address=0.0.0.0 — use-xheaders full_vaccinations_worldmap.py
+web: bokeh serve --port=$PORT --allow-websocket-origin=covid-world-map.herokuapp.com --address=0.0.0.0 --use-xheaders myapp
