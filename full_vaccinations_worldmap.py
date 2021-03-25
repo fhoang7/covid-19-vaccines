@@ -15,7 +15,7 @@ import json
 # In[2]:
 
 
-data = pd.read_csv('../data/clean_data.csv', index_col = 0)
+data = pd.read_csv('./data/clean_data.csv', index_col = 0)
 data.head()
 
 
