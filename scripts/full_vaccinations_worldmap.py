@@ -80,7 +80,7 @@ def filtered_data(selectedDate):
 
 # ### Fully Vaccinated World Map (Heat Map)
 
-# In[28]:
+# In[12]:
 
 
 from bokeh.io import output_notebook, show, output_file, save, curdoc
@@ -157,11 +157,13 @@ datepicker.on_change('value', update_plot)
 update_text = "Last Updated on " + str(current_date)
 p.add_layout(Title(text=update_text, align="center", text_alpha = 0.5), "below")
 
+#Authorship
+p.add_layout(Title(text="Made by Frank Hoang", align="center", text_alpha = 0.5), "below")
+
 # Make a column layout of widgetbox(slider) and plot, and add it to the current document
-layout = Column(p,datepicker)
+layout = Column(datepicker,p)
 curdoc().add_root(layout)
 show(layout)
-output_file('fully_vac_map.html')
 
 
 # In[ ]:
