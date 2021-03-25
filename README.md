@@ -8,4 +8,4 @@ Below is a screenshot of the number of missing values in the columns of the data
 ![](https://github.com/fhoang7/covid-19-vaccines/blob/main/images/pre-clean.jpg?raw=true)
 
 ## Visualizations
-I created three visualizations to highlight three key trends in the data: daily vaccination patterns (line graph), fully vaccinated population trends (world map), and total vaccination progress (bar chart). My hosted plot will be coming soon!
+I created three visualizations to highlight three key trends in the data: daily vaccination patterns (line graph), fully vaccinated population trends (world map), and total vaccination progress (bar chart). My hosted plot can be found [here](https://covid-world-map.herokuapp.com/myapp)!
