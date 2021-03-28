@@ -32,8 +32,8 @@ get_ipython().system('kaggle datasets download -d gpreda/covid-world-vaccination
 
 #unzip into the /data folder
 import zipfile as zf
-files = zf.ZipFile("../covid-world-vaccination-progress.zip", 'r')
-files.extractall('../data')
+files = zf.ZipFile("./covid-world-vaccination-progress.zip", 'r')
+files.extractall('../../data')
 files.close()
 
 
