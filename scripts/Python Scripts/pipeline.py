@@ -10,8 +10,8 @@ import runpy
 # In[6]:
 
 
-runpy.run_path('data_download.py')
-runpy.run_path('data_cleaning.py')
+runpy.run_path('./data_download.py')
+runpy.run_path('./data_cleaning.py')
 
 
 # In[ ]:
