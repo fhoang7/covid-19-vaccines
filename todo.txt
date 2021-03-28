@@ -1,4 +1,3 @@
 To Do:
-Add date slider functionality to manipulate displayed data
+Improve rendering load speeds
 Research periodic API calls
-Create & deploy app.py
